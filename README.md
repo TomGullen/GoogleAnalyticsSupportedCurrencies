@@ -16,7 +16,6 @@ IDR
 BRL
 MXN
 JPY
-BTC
 CHF
 AFN
 AUD
@@ -139,10 +138,12 @@ KMF
 MRO
 TJS
 ANG
-NULL
 
 # Unsupprted ISO codes
 LRD
 SOS
 STD
 VUV
+
+# Notes
+Some currencies (EG JPY) have zero subunits.  Some currencies are officially 10 subunits (EG MOP).  Be careful when sending values that the reported amount is not off by a factor or two!
